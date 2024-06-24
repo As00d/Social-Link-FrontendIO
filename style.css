@@ -21,19 +21,18 @@
   flex-direction: column;
   padding: 40px;
   justify-content: flex-start;
+  max-height: 67vh;
 }
 
 .profiles {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 50%;
+  overflow: scroll;
 }
 
-.github,
-.Frontend,
-.LinkedIn,
-.Twitter,
-.Instagram {
+.profile {
   background: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
   border-radius: 4%;
@@ -43,11 +42,7 @@
   justify-content: center;
   padding: 8px 0 0 0;
 }
-.github:hover,
-.Frontend:hover,
-.LinkedIn:hover,
-.Twitter:hover,
-.Instagram:hover {
+.profile:hover {
   background: hsl(75, 94%, 57%);
   color: hsl(0, 0%, 20%);
   transition: ease 0.5s;
